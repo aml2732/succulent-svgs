@@ -1,0 +1,27 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" xmlns:xlink= "http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="potGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#DCDCDC;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F5F5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="spikeGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#28A828;stop-opacity:1;"/>
+      <stop offset="50%" style="stop-color:#006C00;stop-opacity:1;"/>
+    </linearGradient>
+  </defs>
+
+  <g name="plant">
+    <g name="background-spikes">
+      <polygon points="50,50 48,48 46,45 50,5 54,45 52,48" style="fill:url(#spikeGradient)"/>
+      <polygon points="52,50 54,15 56,45 55,48" style="fill:url(#spikeGradient)" />
+      <polygon points="54,50 60,18 58,46 55,50 " style="fill:url(#spikeGradient)" />
+    </g>
+
+    <g name="foreground-spikes"></g>
+  </g>
+
+  <g name="pot">
+    <polygon points="12,60 16,57 84,57 88,60" style="fill:#F5F5F5;stroke:#DCDCDC;stroke-width:1;"/>
+    <polygon points="12,60 88,60 82,95 18,95" style="fill:url(#potGradient); stroke:#DCDCDC;stroke-width:1"/>
+  </g>
+</svg>
